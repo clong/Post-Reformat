@@ -1,0 +1,16 @@
+#!/usr/bin/python
+from datetime import datetime
+from email.utils import formatdate
+import sys
+import time
+
+if len(sys.argv) > 1:
+    ts = float(sys.argv[1])
+else:
+    now = datetime.now().timetuple()
+    ts = time.mktime(now)
+
+rfc2822 = formatdate(ts, localtime=True)
+print "Local time: %s (%d)" % (rfc2822, ts)
+rfc2822 = formatdate(ts, localtime=False)
+print "UTC time:   %s (%d)" % (rfc2822, ts)
