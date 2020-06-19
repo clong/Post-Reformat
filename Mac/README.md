@@ -66,6 +66,7 @@ curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
 * Create a global .gitignore file: `echo .DS_Store >> ~/.gitignore_global && git config --global core.excludesfile ~/.gitignore_global`
 * Show hidden files: `defaults write com.apple.finder AppleShowAllFiles YES`
 * [Allow TouchID to be used for sudo](https://dev.to/equiman/how-to-use-macos-s-touch-id-on-terminal-5fh)
+* [Allow Apple Watch to be used for sudo](https://github.com/biscuitehh/pam-watchid)
 * Remove old Mac from AppleID account
 * Accessibility > Display > Reduce motion
 * Dock: Minimize using scale effect
