@@ -70,6 +70,7 @@ curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
 * Remove old Mac from AppleID account
 * Accessibility > Display > Reduce motion
 * Dock: Minimize using scale effect
+* Symlink ovftool into /usr/local/bin: `sudo ln -s "/Applications/VMware Fusion.app/Contents/Library/VMware OVF Tool/ovftool" "/usr/local/bin/ovftool"`
 
 ---
 
@@ -124,6 +125,7 @@ curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
     * Install VMware License for Vagrant
 * Packer 
 * Terraform 
+    * Install ESXi plugin: https://github.com/josenk/terraform-provider-esxi#building-the-provider 
 * Docker
 * Ansible 
   * `pip3 install --user ansible pywinrm`
