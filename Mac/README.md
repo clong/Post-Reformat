@@ -40,6 +40,9 @@ sleep 10
 curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
 ```
 
+## Install HEIC image conversion quick action
+[HEIC->PNG.workflow](files/HEIC->PNG.workflow.zip)
+
 ## Transfer over data
 * SSH Keys/config
 * [Github personal access token](https://github.com/settings/tokens/)

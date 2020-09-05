@@ -3,69 +3,202 @@
 <plist version="1.0">
 <dict>
 	<key>build</key>
-	<string>1113</string>
+	<string>1135</string>
 	<key>license</key>
 	<dict>
 		<key>email</key>
-		<string>***REDACTED***</string>
+		<string>REDACTED</string>
 		<key>serial</key>
-		<string>***REDACTED**</string>
+		<string>REDACTED</string>
 	</dict>
 	<key>preferences</key>
 	<dict>
-		<key>FanControl_Sets</key>
+		<key>CPU_MenubarMode</key>
 		<array>
 			<dict>
-				<key>model</key>
-				<string>MacBookPro12,1</string>
-				<key>name</key>
-				<string>Medium</string>
-				<key>speeds</key>
-				<array>
-					<dict>
-						<key>fan</key>
-						<string>F0Ac</string>
-						<key>high</key>
-						<integer>6199</integer>
-						<key>low</key>
-						<integer>1299</integer>
-						<key>percentage</key>
-						<integer>50</integer>
-						<key>speed</key>
-						<integer>3749</integer>
-					</dict>
-				</array>
+				<key>key</key>
+				<string>100</string>
 				<key>uuid</key>
-				<string>1837DAEF-71F0-4013-8E3B-593CC9D5CC9A</string>
+				<string>9295899B-4EBB-4793-8729-CD7F83CF1385</string>
 			</dict>
 			<dict>
-				<key>model</key>
-				<string>MacBookPro12,1</string>
-				<key>name</key>
-				<string>High</string>
-				<key>speeds</key>
-				<array>
-					<dict>
-						<key>fan</key>
-						<string>F0Ac</string>
-						<key>high</key>
-						<integer>6199</integer>
-						<key>low</key>
-						<integer>1299</integer>
-						<key>percentage</key>
-						<integer>100</integer>
-						<key>speed</key>
-						<integer>6199</integer>
-					</dict>
-				</array>
+				<key>key</key>
+				<string>6</string>
 				<key>uuid</key>
-				<string>F1DC574A-3146-41F9-A018-CD77FAD62992</string>
+				<string>41CE84A2-7F3E-43EF-A0C1-AD6C59D011FA</string>
 			</dict>
 		</array>
+		<key>CombinedMenubarDisplayMode</key>
+		<array>
+			<dict>
+				<key>key</key>
+				<string>5</string>
+				<key>uuid</key>
+				<string>EA9B6BF0-C5B0-4DF5-B2C9-9DE57F8F5A96</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>1</string>
+				<key>uuid</key>
+				<string>D06C8D52-A9A3-4C3E-ACEC-46E861B1E01E</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>2</string>
+				<key>uuid</key>
+				<string>53E868C3-7650-41E6-B513-8568F1E5013F</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>3</string>
+				<key>uuid</key>
+				<string>02C2C5AF-F119-4D3C-973B-93CA35DA2C1D</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>4</string>
+				<key>uuid</key>
+				<string>16614BE1-A02D-41D8-A2BA-AAF0232A5280</string>
+			</dict>
+		</array>
+		<key>Disks_DropdownActivityDisplayMode</key>
+		<integer>0</integer>
+		<key>Disks_MenubarItems</key>
+		<array>
+			<dict>
+				<key>boot</key>
+				<true/>
+				<key>key</key>
+				<string>504CBB70-A28A-4F1C-9E40-E52E191DE6A0</string>
+				<key>name</key>
+				<string>Macintosh HD</string>
+			</dict>
+		</array>
+		<key>Disks_MenubarMode</key>
+		<array>
+			<dict>
+				<key>key</key>
+				<string>100</string>
+				<key>uuid</key>
+				<string>BB3BC83B-46EA-4ABC-B3A9-9BD717E7E83C</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>8</string>
+				<key>uuid</key>
+				<string>DB9D4D13-00B5-4D7C-BA43-4B44280CED37</string>
+			</dict>
+		</array>
+		<key>FanControl_Sets</key>
+		<array/>
+		<key>Memory_MenubarMode</key>
+		<array>
+			<dict>
+				<key>key</key>
+				<string>100</string>
+				<key>uuid</key>
+				<string>0F30032E-3218-48D4-9766-A9C1474426E4</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>6</string>
+				<key>uuid</key>
+				<string>460FBFFD-F279-46B4-86F3-3C36632CD170</string>
+			</dict>
+		</array>
+		<key>MenubarSkinColor-Dark</key>
+		<integer>0</integer>
 		<key>Migrated_6.0</key>
 		<true/>
 		<key>Migrated_6.22</key>
 		<true/>
+		<key>Network_MenubarMode</key>
+		<array>
+			<dict>
+				<key>key</key>
+				<string>4</string>
+				<key>uuid</key>
+				<string>2AA56386-7930-4ED0-972B-562E13301A18</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>0</string>
+				<key>uuid</key>
+				<string>64AEB187-DD8A-42BE-BE2D-D9DF8339CCA5</string>
+			</dict>
+		</array>
+		<key>Notifications-Enabled</key>
+		<false/>
+		<key>Notifications-Items</key>
+		<array>
+			<dict>
+				<key>enabled</key>
+				<true/>
+				<key>notification-type</key>
+				<string>1</string>
+				<key>rule-type</key>
+				<string>18</string>
+				<key>uuid</key>
+				<string>795C5214-8A27-4358-970F-5B214CA678A0</string>
+				<key>value</key>
+				<string>978332400</string>
+			</dict>
+			<dict>
+				<key>enabled</key>
+				<true/>
+				<key>notification-type</key>
+				<string>1</string>
+				<key>rule-type</key>
+				<string>17</string>
+				<key>uuid</key>
+				<string>95BCE2FD-9912-428E-B489-428F46A3A03C</string>
+				<key>value</key>
+				<string>1.00</string>
+			</dict>
+			<dict>
+				<key>enabled</key>
+				<true/>
+				<key>notification-type</key>
+				<string>0</string>
+				<key>rule-type</key>
+				<string>14</string>
+				<key>uuid</key>
+				<string>2FA4BA60-9234-4A5A-9BA8-84FFD2AA914F</string>
+				<key>value</key>
+				<string>10.00</string>
+			</dict>
+			<dict>
+				<key>enabled</key>
+				<true/>
+				<key>notification-type</key>
+				<string>1</string>
+				<key>rule-type</key>
+				<string>20</string>
+				<key>uuid</key>
+				<string>513A4950-F491-41B4-BF44-A457F3E674DA</string>
+				<key>value</key>
+				<string>10.00</string>
+			</dict>
+		</array>
+		<key>Sensors_DropdownOrderDisabled</key>
+		<string></string>
+		<key>Sensors_MenubarMode</key>
+		<array>
+			<dict>
+				<key>key</key>
+				<string>100</string>
+				<key>uuid</key>
+				<string>2153FA16-D16C-4016-A7A6-DE97BC066B1C</string>
+			</dict>
+			<dict>
+				<key>key</key>
+				<string>3</string>
+				<key>uuid</key>
+				<string>21D30110-B71C-44C3-98C6-D6FD55107239</string>
+			</dict>
+		</array>
+		<key>Sensors_TemperatureMode</key>
+		<integer>0</integer>
 		<key>StatusItems-Order</key>
 		<array>
 			<integer>8</integer>
@@ -87,6 +220,6 @@
 		</array>
 	</dict>
 	<key>version</key>
-	<string>6.40</string>
+	<string>6.41</string>
 </dict>
 </plist>
