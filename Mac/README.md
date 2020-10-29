@@ -12,7 +12,7 @@ scutil --get HostName
 
 ## Homebrew
 1. Install homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
-2. ```brew install awscli boost coreutils dockutil dos2unix fzf git gnu-sed htop hugo icdiff icu4c iftop jq libusb mtr p7zip proxychains-ng ripgrep socat source-highlight sqlite tree unrar watch wget xz```
+2. ```brew install awscli boost coreutils dockutil dos2unix fzf git gnu-sed htop hugo icdiff icu4c iftop jq libusb mtr p7zip proxychains-ng ripgrep socat source-highlight sqlite tmux tree unrar watch wget xz```
 3. `$(brew --prefix)/opt/fzf/install` # Install fzf
 
 ## Clear out the dock
