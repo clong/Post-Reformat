@@ -2,6 +2,7 @@
 
 * Install any pending updates
 * Download Google Chrome
+* Set default shell to bash because I haven't joined the zsh hype-train yet: `chsh -s /bin/bash`
 * Set hostname:
 ```bash
 scutil --set ComputerName "name"
