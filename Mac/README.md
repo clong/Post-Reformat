@@ -66,6 +66,7 @@ curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
 
 ## Misc
 * Disable paging in git: `git config --global pager.branch false`
+* Nano is best: `git config --global core.editor "/usr/local/bin/nano"`
 * Don't rebase during git pull: `git config pull.rebase false --global`
 * Create a global .gitignore file: `echo .DS_Store >> ~/.gitignore_global && git config --global core.excludesfile ~/.gitignore_global`
 * Show hidden files: `defaults write com.apple.finder AppleShowAllFiles YES`
