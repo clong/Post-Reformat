@@ -27,6 +27,7 @@ done
 ## Finder
 * Show Hard Disks on the Desktop
 * Customize finder toolbar to include Path button
+* Right click desktop > Sort by > Snap to grid
 
 ## Install Nano w/ Syntax Highlighting
 ```bash
