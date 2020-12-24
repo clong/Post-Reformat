@@ -1,0 +1,10 @@
+https://chrome.google.com/webstore/detail/aomjjhallfgjeglblehebfpbcfeobpgk  # 1password
+https://chrome.google.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm  # ublock
+https://chrome.google.com/webstore/detail/djflhoibgkdhkhhcedjiklpkjnoahfmg  # useragent switcher
+https://chrome.google.com/webstore/detail/fngmhnnpilhplaeedifhccceomclgfbg  # editthiscookie
+https://chrome.google.com/webstore/detail/ghnomdcacenbmilgjigehppbamfndblo  # the camelizer
+https://chrome.google.com/webstore/detail/hoombieeljmmljlkjmnheibnpciblicm  # language learning with netflix
+https://chrome.google.com/webstore/detail/kbmfpngjjgdllneeigpgjifpgocmfgmb  # reddit enhancement suite
+https://chrome.google.com/webstore/detail/laookkfknpbbblfpciffpaejjkokdgca  # momentum
+https://chrome.google.com/webstore/detail/lljbpnomhjlnohbcipjjjmnbncfofobe  # powerswitch
+https://chrome.google.com/webstore/detail/niloccemoadcdkdjlinkgdfekeahmflj  # pocket
