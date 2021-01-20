@@ -71,6 +71,7 @@ curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
 * Don't rebase during git pull: `git config pull.rebase false --global`
 * Create a global .gitignore file: `echo .DS_Store >> ~/.gitignore_global && git config --global core.excludesfile ~/.gitignore_global`
 * Show hidden files: `defaults write com.apple.finder AppleShowAllFiles YES`
+* Install python virtualenv: `python3 -m pip install --user --upgrade virtualenv`
 * [Allow TouchID to be used for sudo](https://www.imore.com/how-use-sudo-your-mac-touch-id)
 * [Allow Apple Watch to be used for sudo](https://github.com/biscuitehh/pam-watchid)
 * Remove old Mac from AppleID account
