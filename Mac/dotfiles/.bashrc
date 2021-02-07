@@ -11,6 +11,7 @@ export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 export BASH_SILENCE_DEPRECATION_WARNING=1
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES # Fix for some Ansible issues
+export BLOCKSIZE=human-readable
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
