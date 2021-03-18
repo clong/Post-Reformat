@@ -12,7 +12,7 @@ Copy [Profile.ps1](configs/Profile.ps1) to `C:\Windows\System32\WindowsPowerShel
 
 ## Choco
 1. Install choco: `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
-2. `choco install git classic-shell`
+2. `choco install git classic-shell microsoft-windows-terminal`
 
 ## Ninite for packages
 * Notepad++

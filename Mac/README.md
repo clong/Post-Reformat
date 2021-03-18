@@ -2,6 +2,7 @@
 
 * Install any pending updates
 * Download Google Chrome
+* Set default shell to bash because I haven't joined the zsh hype-train yet: `chsh -s /bin/bash`
 * Set hostname:
 ```bash
 scutil --set ComputerName "name"
@@ -12,7 +13,7 @@ scutil --get HostName
 
 ## Homebrew
 1. Install homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"`
-2. ```brew install awscli boost coreutils dockutil dos2unix fzf git gnu-sed htop hugo icdiff icu4c iftop jq libusb mtr p7zip proxychains-ng ripgrep socat source-highlight sqlite tree unrar watch wget xz```
+2. ```brew install awscli boost coreutils dockutil dos2unix fzf git gnu-sed htop hugo icdiff icu4c iftop jq libusb mtr p7zip proxychains-ng ripgrep socat source-highlight sqlite tmux tree unrar watch wget xz```
 3. `$(brew --prefix)/opt/fzf/install` # Install fzf
 
 ## Clear out the dock
@@ -26,6 +27,7 @@ done
 ## Finder
 * Show Hard Disks on the Desktop
 * Customize finder toolbar to include Path button
+* Right click desktop > Sort by > Snap to grid
 
 ## Install Nano w/ Syntax Highlighting
 ```bash
@@ -65,10 +67,12 @@ curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
 
 ## Misc
 * Disable paging in git: `git config --global pager.branch false`
+* Nano is best: `git config --global core.editor "/usr/local/bin/nano"`
 * Don't rebase during git pull: `git config pull.rebase false --global`
 * Create a global .gitignore file: `echo .DS_Store >> ~/.gitignore_global && git config --global core.excludesfile ~/.gitignore_global`
 * Show hidden files: `defaults write com.apple.finder AppleShowAllFiles YES`
-* [Allow TouchID to be used for sudo](https://dev.to/equiman/how-to-use-macos-s-touch-id-on-terminal-5fh)
+* Install python virtualenv: `python3 -m pip install --user --upgrade virtualenv`
+* [Allow TouchID to be used for sudo](https://www.imore.com/how-use-sudo-your-mac-touch-id)
 * [Allow Apple Watch to be used for sudo](https://github.com/biscuitehh/pam-watchid)
 * Remove old Mac from AppleID account
 * Accessibility > Display > Reduce motion
