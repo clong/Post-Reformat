@@ -21,7 +21,7 @@ alias winrm="~/go/bin/winrm-cli -username 'vagrant' -password 'vagrant'"
 alias dockershell="docker run --rm -i -t --entrypoint=/bin/bash"
 alias dockershellsh="docker run --rm -i -t --entrypoint=/bin/sh"
 alias maintainbrew='brew update && brew upgrade && brew cleanup -s'
-alias gbr='git branch | grep -v "master" | xargs git branch -D' # Delete all local branches except master
+alias gbr='git branch | grep -v "master" | grep -v "main" | xargs git branch -D' # Delete all local branches except master and main
 
 # Utilities
 alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.argv[1])"'
