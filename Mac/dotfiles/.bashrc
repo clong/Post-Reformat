@@ -11,7 +11,6 @@ export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 export BASH_SILENCE_DEPRECATION_WARNING=1
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES # Fix for some Ansible issues
-export BLOCKSIZE=human-readable
 export PATH="$PATH:/usr/local/bin:/usr/local/go/bin:/Users/clong/Library/Python/3.7/bin:/var/root/Library/Python/3.7/bin"
 export SHELL="/bin/bash"
 

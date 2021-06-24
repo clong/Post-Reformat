@@ -8,3 +8,4 @@ https://chrome.google.com/webstore/detail/kbmfpngjjgdllneeigpgjifpgocmfgmb  # re
 https://chrome.google.com/webstore/detail/laookkfknpbbblfpciffpaejjkokdgca  # momentum
 https://chrome.google.com/webstore/detail/lljbpnomhjlnohbcipjjjmnbncfofobe  # powerswitch
 https://chrome.google.com/webstore/detail/niloccemoadcdkdjlinkgdfekeahmflj  # pocket
+https://chrome.google.com/webstore/detail/gmpnnmonpnnmnhpdldahlekfofigiffh  # open tabs next to current
