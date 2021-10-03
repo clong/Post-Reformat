@@ -2,10 +2,9 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-export LESSOPEN="| /usr/local/bin/src-hilite-lesspipe.sh %s"
 export LESS=' -R -X -E '
 export GOPATH="/Users/clong/go"
-export EDITOR="nano"
+export EDITOR="/usr/local/bin/nano"
 export VAGRANT_DEFAULT_PROVIDER=vmware_desktop
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
@@ -14,31 +13,20 @@ export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES # Fix for some Ansible issues
 export PATH="$PATH:/usr/local/bin:/usr/local/go/bin:/Users/clong/Library/Python/3.7/bin:/var/root/Library/Python/3.7/bin"
 export SHELL="/bin/bash"
 export PROMPT_COMMAND="history -a"
+export HISTFILESIZE=""
+export HISTSIZE=500000
+export HISTTIMEFORMAT="[%F %T] "
+export HISTCONTROL=ignoreboth # don't put duplicate lines in the history.
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
 
-# don't put duplicate lines in the history. See bash(1) for more options
-# ... or force ignoredups and ignorespace
-HISTCONTROL=ignoredups:ignorespace
-
 # append to the history file, don't overwrite it
 shopt -s histappend
-
-# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTFILESIZE=""
-export HISTSIZE=100000
-export HISTTIMEFORMAT="%F %T "
-
-# Nano is best editor
-EDITOR="/usr/local/bin/nano"
 
 # Check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
-
-# make less more friendly for non-text input files, see lesspipe(1)
-[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 # set variable identifying the chroot you work in (used in the prompt below)
 if [ -z "$debian_chroot" ] && [ -r /etc/debian_chroot ]; then
@@ -83,3 +71,11 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+source ~/.iterm2_shell_integration.bash
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/clong/google-cloud-sdk/path.bash.inc' ]; then . '/Users/clong/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/clong/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/clong/google-cloud-sdk/completion.bash.inc'; fi
