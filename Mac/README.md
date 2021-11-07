@@ -81,6 +81,9 @@ git config --global core.editor "/usr/local/bin/nano"
  
 ## Don't rebase during git pull
 git config pull.rebase false --global
+
+## Don't ask to push the current branch to upstream
+git config --global push.default current
  
 ## Create a global .gitignore file
 echo .DS_Store >> ~/.gitignore_global && git config --global core.excludesfile ~/.gitignore_global
