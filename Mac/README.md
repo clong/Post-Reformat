@@ -5,9 +5,10 @@
 * Set default shell to bash because I haven't joined the zsh hype-train yet: `chsh -s /bin/bash`
 * Set hostname:
 ```bash
-scutil --set ComputerName "name"
-scutil --set LocalHostName "name"
-scutil --set HostName "name"
+NEW_HOSTNAME="name"
+scutil --set ComputerName "$NEW_HOSTNAME"
+scutil --set LocalHostName "$NEW_HOSTNAME"
+scutil --set HostName "$NEW_HOSTNAME"
 scutil --get HostName
 ```
 
