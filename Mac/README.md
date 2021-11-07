@@ -42,6 +42,9 @@ sleep 10
 curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
 ```
 
+## Install TinkerTool and import the [config](files/tinkertool.ttps)
+https://www.bresink.com/osx/TinkerTool.html
+
 ## Install HEIC image conversion quick action
 [HEIC->PNG.workflow](files/HEIC->PNG.workflow.zip)
 
