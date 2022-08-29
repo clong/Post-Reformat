@@ -100,6 +100,16 @@ sudo ln -s "/Applications/VMware Fusion.app/Contents/Library/VMware OVF Tool/ovf
  ```
 * [Allow TouchID to be used for sudo](https://www.imore.com/how-use-sudo-your-mac-touch-id)
 * [Allow Apple Watch to be used for sudo](https://github.com/biscuitehh/pam-watchid)
+```
+# Contents of /private/etc/pam.d/sudo
+auth       sufficient     pam_tid.so
+auth       sufficient     pam_watchid.so
+auth       sufficient     pam_smartcard.so
+auth       required       pam_opendirectory.so
+account    required       pam_permit.so
+password   required       pam_deny.so
+session    required       pam_permit.so
+```
 * Remove old Mac from AppleID account
 * Accessibility > Display > Reduce motion
 * Dock: Minimize using scale effect
