@@ -100,6 +100,7 @@ sudo ln -s "/Applications/VMware Fusion.app/Contents/Library/VMware OVF Tool/ovf
  ```
 * [Allow TouchID to be used for sudo](https://www.imore.com/how-use-sudo-your-mac-touch-id)
 * [Allow Apple Watch to be used for sudo](https://github.com/biscuitehh/pam-watchid)
+  * To make this work, the content of Line 4 of the makefile needs to be the output from `swift -version | grep Target`
 ```
 # Contents of /private/etc/pam.d/sudo
 auth       sufficient     pam_tid.so
@@ -125,8 +126,7 @@ session    required       pam_permit.so
 
 ### Utilities
 * Flux
-* nvALT
-  * Restore data from `~/Library/Application Support/Notational Data`
+* Obsidian
 * Carbon Copy Cloner
 * aText
 * Microsoft Remote Desktop
@@ -148,7 +148,6 @@ session    required       pam_permit.so
   * Restore data from `~/Library/Application Support/Spectacle/Shortcuts.json`
 * [iStat Menus](configs/iStat.ismp) 
 * Slack
-* Skype 
 * Zoom
 * Chrome
     * Restore profile from `~/Library/Application Support/Google/Chrome`
@@ -160,17 +159,7 @@ session    required       pam_permit.so
 * Golang
 
 ### DevOps
-* VMware Fusion
-* Vagrant
-    * Restore data from `~/.vagrant.d`
-    * Install VMware Utility
-    * Install VMware License for Vagrant
-* Packer 
-* Terraform 
-    * Install ESXi plugin: https://github.com/josenk/terraform-provider-esxi#building-the-provider 
 * Docker
-* Ansible 
-  * `pip3 install --user ansible pywinrm`
 
 ---
 
