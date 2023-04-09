@@ -101,6 +101,12 @@ sudo ln -s "/Applications/VMware Fusion.app/Contents/Library/VMware OVF Tool/ovf
 * [Allow TouchID to be used for sudo](https://www.imore.com/how-use-sudo-your-mac-touch-id)
 * [Allow Apple Watch to be used for sudo](https://github.com/biscuitehh/pam-watchid)
   * To make this work, the content of Line 4 of the makefile needs to be the output from `swift -version | grep Target`
+* Every OS software update will remove these PAM modifications. You can run the following to fix it (assuming gsed is installed):
+```
+if ! grep 'pam_tid' /etc/pam.d/sudo >/dev/null; then
+  sudo gsed -i 's/# sudo: auth account password session/# sudo: auth account password session\nauth       sufficient     pam_tid.so\nauth       sufficient     pam_watchid.so/g' /etc/pam.d/sudo
+fi
+```
 ```
 # Contents of /private/etc/pam.d/sudo
 auth       sufficient     pam_tid.so
