@@ -57,6 +57,8 @@ https://www.bresink.com/osx/TinkerTool.html
 * [dotfiles](dotfiles/)
 * [ut](files/ut) (CLI time converter)
   * `sudo cp ut /usr/local/bin/ut`
+* sudo_local
+  * `sudo cp sudo_local /etc/pam.d/`
 
 ## Security Software
 * Little Snitch: https://obdev.at/products/littlesnitch/download.html
