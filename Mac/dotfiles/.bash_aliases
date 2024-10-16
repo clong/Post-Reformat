@@ -30,6 +30,7 @@ alias urldecode='python -c "import sys, urllib as ul; print ul.unquote_plus(sys.
 alias updatedb='sudo /usr/libexec/locate.updatedb'
 alias perms='stat -f "%0Lp"'
 alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
+alias wq="sed 's/^/\"/g' | sed 's/$/\",/g'"
 
 # Docker Stuff
 # https://github.com/sdcampbell/Dockerfiles/blob/master/Metasploit/README.md

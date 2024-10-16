@@ -61,3 +61,13 @@ zstyle :bracketed-paste-magic paste-finish pastefinish
 # Source other stuff
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Move to the end of the multi-line command when recalling with the up arrow
+zle-line-init() {
+  zle redisplay
+  zle end-of-line
+}
+zle -N zle-line-init
+
+# Bind the up arrow key to recall commands and move the cursor to the end
+bindkey '^[[A' up-line-or-history
