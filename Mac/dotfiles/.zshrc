@@ -5,14 +5,9 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# If you come from bash you might have to change your $PATH.
-export PATH="/usr/local/bin:$PATH:/usr/local/go/bin:/Users/clong/Library/Python/3.7/bin:/var/root/Library/Python/3.7/bin"
-export GOPATH="/Users/clong/go"
 export LESS=' -R -X -E '
 export EDITOR="/usr/local/bin/nano"
-export VAGRANT_DEFAULT_PROVIDER=vmware_desktop
-export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES # Fix for some Ansible issues
-export EDITOR="/usr/local/bin/nano"
+export LSCOLORS=Gxfxcxdxbxegedabagacad
 # zsh_history
 export HISTFILE=~/.zsh_history
 export HIST_STAMPS="[%F %T]"
@@ -27,6 +22,7 @@ source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 # I still want my bash aliases
 source ~/.bash_aliases
+
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/clong/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/clong/google-cloud-sdk/path.zsh.inc'; fi
@@ -45,7 +41,6 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
 
 ## Fix slowness of pastes with zsh-syntax-highlighting.zsh
 pasteinit() {
